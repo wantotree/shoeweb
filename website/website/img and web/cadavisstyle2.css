@@ -1,0 +1,285 @@
+
+*{
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+	text-align: center;
+	font-family: 'Baskerville';
+    font-size: 80px;
+	color: #252839
+}
+
+
+
+body {
+	
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    background-repeat: no-repeat;
+	margin-bottom: 265px;
+
+}
+
+.container {
+	max-width: 1068px;
+	margin: auto;
+	width: 100%;
+}
+
+
+/* Header */
+
+
+header{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 70px;
+	margin-left: 30px;
+}
+
+
+.logo{
+	
+    cursor: pointer;
+    width: 320px;
+    height: 320px;
+    margin-top: -60px;
+    margin-bottom: -60px;
+    margin-left: -70px;
+	padding: 0 15px;
+}
+
+
+.nav-area{
+    list-style: none;
+    margin-right: 170px;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: x-large;
+	font-weight: bolder;
+}
+.nav-area li{
+	align-items: center;
+	
+    display: inline-flex;
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+.nav-area li a{
+	
+    transition: .3s;
+    color: rgb(0, 0, 0);
+}
+
+
+.content p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    font-family: monospace;
+}
+.content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+
+/* Cart */
+
+
+
+.section-title {
+	font-size: 1.5rem;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 1.5rem;
+}
+
+.shop {
+	margin-top: 2rem;
+}
+
+/* Shop Content */
+.shop-content {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+	gap: 1.5rem;
+}
+
+.product-box {
+	padding-bottom: 50px;
+	position: relative;
+	
+}
+
+.product-box:hover {
+	padding: 10px;
+	border: 1px solid var(--text-color);
+	transition: 0.4s;
+}
+
+.product-img {
+	
+	width: 100%;
+	height: 300px;
+	margin-bottom: 0.5rem;
+}
+
+.product-title {
+	font-size: 1.1rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 0.5rem;
+}
+
+.price {
+	font-weight: 500;
+}
+
+.add-cart {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background: var(--text-color);
+	color: var(--bg-color);
+	padding: 10px;
+	cursor: pointer;
+}
+
+.add-cart:hover {
+	background: hsl(249, 32%, 17%);
+}
+
+#animated-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: black;
+}
+
+
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+
+/* footer */
+
+
+
+
+.members{
+	font-size: 15px;
+	padding-top: 50px;
+	text-align: center;
+	color: rgb(202, 202, 202);
+}
+
+.members2{
+	font-size: 15px;
+	text-align: center;
+	color: rgb(202, 202, 202);
+}
+
+.footer{
+	background-color: #616161;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgb(136, 131, 131);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.4s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
